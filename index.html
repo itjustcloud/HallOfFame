@@ -4,25 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HallOfFame</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Outfit:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
-    <div class="bg-glow"></div>
-    <main class="container">
-      <section class="hero">
-        <p class="eyebrow" id="heroEyebrow">명예의 작품들</p>
-        <h1 id="heroTitle">HallOfFame</h1>
-        <p id="heroDesc">영화와 책을 한 곳에서 탐색하고 기록하세요.</p>
+    <div class="bg-layer bg-layer-one" aria-hidden="true"></div>
+    <div class="bg-layer bg-layer-two" aria-hidden="true"></div>
+
+    <main class="page-shell">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-copy">
+          <p class="eyebrow" id="heroEyebrow">명예의 작품들</p>
+          <h1 id="heroTitle">HallOfFame</h1>
+          <p id="heroDesc">영화와 책을 한 곳에서 탐색하고 기록하세요.</p>
+        </div>
+
+        <article id="featuredPanel" class="featured-panel" aria-live="polite">
+          <div class="featured-overlay"></div>
+          <img id="featuredImage" class="featured-image" src="" alt="" loading="lazy" />
+          <div class="featured-content">
+            <p class="featured-kicker" id="featuredKicker">오늘의 큐레이션</p>
+            <h2 id="featuredTitle"></h2>
+            <p class="meta-line" id="featuredMeta"></p>
+            <p id="featuredDescription"></p>
+          </div>
+        </article>
       </section>
 
-      <section class="controls">
+      <section class="controls" aria-label="Catalog Controls">
         <div class="control-row">
           <div class="category-filter" aria-label="카테고리 필터">
             <button class="chip active" data-category="all" type="button">전체</button>
@@ -48,8 +57,16 @@
         </div>
       </section>
 
-      <section>
-        <div id="resultMeta" class="result-meta"></div>
+      <section class="lane-section" aria-labelledby="laneSectionTitle">
+        <h2 id="laneSectionTitle"></h2>
+        <div id="laneRows" class="lane-rows"></div>
+      </section>
+
+      <section class="catalog" aria-labelledby="catalogTitle">
+        <div class="catalog-header">
+          <h2 id="catalogTitle"></h2>
+          <div id="resultMeta" class="result-meta"></div>
+        </div>
         <div id="cardGrid" class="card-grid" aria-live="polite"></div>
       </section>
     </main>
