@@ -338,6 +338,33 @@ button:focus-visible,
   gap: 10px;
 }
 
+.site-footer {
+  margin-top: 8px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  color: #96a3bc;
+  font-size: 0.8rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+.site-footer a,
+.modal-source a {
+  color: #9dd8ff;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.modal-source a:hover {
+  text-decoration: underline;
+}
+
 .catalog-header {
   display: flex;
   justify-content: space-between;
@@ -476,6 +503,12 @@ button:focus-visible,
   border-left: 3px solid #6ec8ff;
   padding-left: 10px;
   font-style: italic;
+}
+
+.modal-source {
+  margin: 2px 0 0;
+  color: #9fb0cb;
+  font-size: 0.82rem;
 }
 
 .modal-close {

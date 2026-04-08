@@ -47,6 +47,8 @@ const i18n = {
     empty: "조건에 맞는 작품이 없습니다.",
     laneCount: (count) => `${count}개 큐레이션`,
     featuredFallback: "표시할 작품이 없습니다.",
+    tmdbAttribution: "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    sourceLabel: "출처",
   },
   en: {
     htmlLang: "en",
@@ -70,6 +72,8 @@ const i18n = {
     empty: "No items found for your filters.",
     laneCount: (count) => `${count} picks`,
     featuredFallback: "No featured item available.",
+    tmdbAttribution: "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    sourceLabel: "Source",
   },
   ja: {
     htmlLang: "ja",
@@ -93,6 +97,8 @@ const i18n = {
     empty: "条件に合う作品がありません。",
     laneCount: (count) => `${count} 作品`,
     featuredFallback: "表示できる作品がありません。",
+    tmdbAttribution: "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    sourceLabel: "出典",
   },
 };
 
@@ -131,6 +137,8 @@ const el = {
   modalMeta: document.getElementById("modalMeta"),
   modalDescription: document.getElementById("modalDescription"),
   modalQuote: document.getElementById("modalQuote"),
+  modalSource: document.getElementById("modalSource"),
+  tmdbAttributionText: document.getElementById("tmdbAttributionText"),
 };
 
 init();
@@ -194,6 +202,7 @@ function updateStaticText() {
   el.catalogTitle.textContent = text.catalogTitle;
   el.searchLabel.textContent = text.searchLabel;
   el.searchInput.placeholder = text.searchPlaceholder;
+  el.tmdbAttributionText.textContent = text.tmdbAttribution;
 
   el.categoryButtons.forEach((btn) => {
     btn.textContent = text.category[btn.dataset.category];
@@ -356,6 +365,11 @@ function openModal(id, triggerNode) {
   el.modalMeta.textContent = `${text.creator[item.category]}: ${creatorName}`;
   el.modalDescription.textContent = description;
   el.modalQuote.textContent = quote;
+  if (item.tmdb?.url) {
+    el.modalSource.innerHTML = `${text.sourceLabel}: <a href="${escapeHtml(item.tmdb.url)}" target="_blank" rel="noopener noreferrer">TMDB</a>`;
+  } else {
+    el.modalSource.textContent = "";
+  }
 
   el.modal.classList.add("open");
   el.modal.setAttribute("aria-hidden", "false");
