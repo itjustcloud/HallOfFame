@@ -46,6 +46,21 @@
 4. 다국어 필드(`title/comment/description/quote`)는 `ko/en/ja` 키를 유지합니다.
 5. 이미지 경로는 원격 URL을 사용하면 로컬 에셋 없이 바로 렌더링됩니다.
 
+## TMDb 포스터 자동 갱신 (로컬 1회 실행)
+
+키를 코드/깃에 저장하지 않고 로컬 환경변수로만 사용해 `data/items.json`의 영화 포스터 URL을 갱신합니다.
+
+```bash
+cd /home/ubuntu/Project/HallOfFame
+export TMDB_API_KEY='새로발급한키'
+node scripts/fetch-posters.js
+unset TMDB_API_KEY
+```
+
+- 한국 포스터 우선(`ko`) → 없으면 언어 미지정(`null`) → 마지막 fallback 순으로 선택합니다.
+- 결과는 `data/items.json`에만 반영됩니다.
+- **주의:** 키는 Slack/Repo/코드에 절대 올리지 마세요.
+
 ## 이후 Vercel + Supabase로 마이그레이션 (요약)
 
 1. Vercel에 현재 저장소를 import해 정적 사이트로 먼저 배포합니다.
