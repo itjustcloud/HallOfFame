@@ -1,0 +1,226 @@
+[
+  {
+    "id": "movie-parasite",
+    "category": "movie",
+    "year": 2019,
+    "director": "Bong Joon-ho",
+    "author": "",
+    "image": "https://picsum.photos/seed/parasite/700/1000",
+    "title": {
+      "ko": "기생충",
+      "en": "Parasite",
+      "ja": "パラサイト 半地下の家族"
+    },
+    "comment": {
+      "ko": "장르를 넘나들며 계급의 균열을 날카롭게 보여준다.",
+      "en": "A razor-sharp class satire that shifts genres flawlessly.",
+      "ja": "ジャンルを横断しながら階級の亀裂を鋭く描く。"
+    },
+    "description": {
+      "ko": "반지하 가족과 부유한 가족의 관계가 예상치 못한 방향으로 흐르며 사회 구조를 드러낸다.",
+      "en": "A semi-basement family becomes entangled with a wealthy household, exposing social structures.",
+      "ja": "半地下の家族と裕福な家族の関係が予想外の方向へ進み、社会構造を浮かび上がらせる。"
+    },
+    "quote": {
+      "ko": "가장 개인적인 것이 가장 창의적이다.",
+      "en": "The most personal is the most creative.",
+      "ja": "最も個人的なものこそ、最も創造的だ。"
+    }
+  },
+  {
+    "id": "movie-interstellar",
+    "category": "movie",
+    "year": 2014,
+    "director": "Christopher Nolan",
+    "author": "",
+    "image": "https://picsum.photos/seed/interstellar/700/1000",
+    "title": {
+      "ko": "인터스텔라",
+      "en": "Interstellar",
+      "ja": "インターステラー"
+    },
+    "comment": {
+      "ko": "과학적 상상력과 가족 드라마가 강하게 맞물린다.",
+      "en": "Scientific ambition and emotional storytelling align powerfully.",
+      "ja": "科学的な想像力と家族ドラマが力強く噛み合う。"
+    },
+    "description": {
+      "ko": "지구의 위기 속에서 새로운 거주지를 찾기 위한 우주 탐사가 시작된다.",
+      "en": "As Earth declines, a crew travels through space to search for humanity's next home.",
+      "ja": "地球の危機の中、人類の新たな居住地を探す宇宙探査が始まる。"
+    },
+    "quote": {
+      "ko": "사랑은 시간을 초월할 수도 있어.",
+      "en": "Love might be the one thing that transcends time.",
+      "ja": "愛は時間を超えるかもしれない。"
+    }
+  },
+  {
+    "id": "movie-spiritedaway",
+    "category": "movie",
+    "year": 2001,
+    "director": "Hayao Miyazaki",
+    "author": "",
+    "image": "https://picsum.photos/seed/spiritedaway/700/1000",
+    "title": {
+      "ko": "센과 치히로의 행방불명",
+      "en": "Spirited Away",
+      "ja": "千と千尋の神隠し"
+    },
+    "comment": {
+      "ko": "성장과 노동, 기억을 동화적 이미지로 압축한다.",
+      "en": "A poetic coming-of-age tale about work, memory, and courage.",
+      "ja": "成長と労働、記憶を童話的な映像で凝縮した作品。"
+    },
+    "description": {
+      "ko": "낯선 세계에 홀로 남겨진 치히로가 이름과 존재를 지키기 위해 분투한다.",
+      "en": "Chihiro, trapped in a mysterious world, fights to protect her name and identity.",
+      "ja": "見知らぬ世界に取り残された千尋が、名前と存在を守るために奮闘する。"
+    },
+    "quote": {
+      "ko": "한 번 만난 인연은 절대 잊히지 않아.",
+      "en": "Once you've met someone, you never really forget them.",
+      "ja": "一度出会った縁は、決して忘れない。"
+    }
+  },
+  {
+    "id": "movie-lalaland",
+    "category": "movie",
+    "year": 2016,
+    "director": "Damien Chazelle",
+    "author": "",
+    "image": "https://picsum.photos/seed/lalaland/700/1000",
+    "title": {
+      "ko": "라라랜드",
+      "en": "La La Land",
+      "ja": "ラ・ラ・ランド"
+    },
+    "comment": {
+      "ko": "꿈과 현실의 간극을 경쾌한 리듬으로 보여준다.",
+      "en": "A vibrant musical about ambition, love, and compromise.",
+      "ja": "夢と現実の距離を軽快なリズムで描くミュージカル。"
+    },
+    "description": {
+      "ko": "배우 지망생과 재즈 피아니스트가 사랑과 커리어 사이에서 선택을 마주한다.",
+      "en": "An aspiring actress and a jazz pianist confront the cost of their dreams.",
+      "ja": "女優志望とジャズピアニストが、恋とキャリアの選択に向き合う。"
+    },
+    "quote": {
+      "ko": "꿈꾸는 사람들을 위해, 그리고 바보 같은 사랑을 위해.",
+      "en": "Here's to the fools who dream.",
+      "ja": "夢を見るすべての人へ。"
+    }
+  },
+  {
+    "id": "book-littleprince",
+    "category": "book",
+    "year": 1943,
+    "director": "",
+    "author": "Antoine de Saint-Exupery",
+    "image": "https://picsum.photos/seed/littleprince/700/1000",
+    "title": {
+      "ko": "어린 왕자",
+      "en": "The Little Prince",
+      "ja": "星の王子さま"
+    },
+    "comment": {
+      "ko": "짧지만 오래 남는 질문들을 남기는 우화.",
+      "en": "A timeless fable that asks what truly matters.",
+      "ja": "短いのに心に残る問いを投げかける寓話。"
+    },
+    "description": {
+      "ko": "사막에서 만난 어린 왕자의 여행담을 통해 어른의 세계를 되묻는다.",
+      "en": "Through the little prince's journey, the story re-examines the logic of adulthood.",
+      "ja": "砂漠で出会った王子の旅を通じて、大人の世界を問い直す。"
+    },
+    "quote": {
+      "ko": "가장 중요한 것은 눈에 보이지 않아.",
+      "en": "What is essential is invisible to the eye.",
+      "ja": "大切なものは目に見えない。"
+    }
+  },
+  {
+    "id": "book-1984",
+    "category": "book",
+    "year": 1949,
+    "director": "",
+    "author": "George Orwell",
+    "image": "https://picsum.photos/seed/1984novel/700/1000",
+    "title": {
+      "ko": "1984",
+      "en": "Nineteen Eighty-Four",
+      "ja": "一九八四年"
+    },
+    "comment": {
+      "ko": "감시와 언어 통제가 개인을 어떻게 무너뜨리는지 보여준다.",
+      "en": "A chilling warning about surveillance and manipulated truth.",
+      "ja": "監視と言語統制が個人をどう壊すかを描く警告。"
+    },
+    "description": {
+      "ko": "전체주의 체제 아래에서 진실을 지키려는 개인의 저항을 추적한다.",
+      "en": "It follows one man's rebellion against a totalitarian state controlling reality itself.",
+      "ja": "現実そのものを支配する全体主義国家に抗う個人の抵抗を追う。"
+    },
+    "quote": {
+      "ko": "자유란 2 더하기 2가 4라고 말할 자유다.",
+      "en": "Freedom is the freedom to say that two plus two make four.",
+      "ja": "自由とは二足す二が四だと言える自由だ。"
+    }
+  },
+  {
+    "id": "book-sapiens",
+    "category": "book",
+    "year": 2011,
+    "director": "",
+    "author": "Yuval Noah Harari",
+    "image": "https://picsum.photos/seed/sapiensbook/700/1000",
+    "title": {
+      "ko": "사피엔스",
+      "en": "Sapiens",
+      "ja": "サピエンス全史"
+    },
+    "comment": {
+      "ko": "인류의 역사를 큰 축으로 재해석한 대담한 논픽션.",
+      "en": "An expansive retelling of human history and shared myths.",
+      "ja": "人類史を大きな軸で再解釈した大胆なノンフィクション。"
+    },
+    "description": {
+      "ko": "인지혁명부터 현대 자본주의까지 인류 문명의 흐름을 통합적으로 설명한다.",
+      "en": "From cognitive revolution to modern capitalism, it maps how humans built societies.",
+      "ja": "認知革命から現代資本主義まで、人類文明の流れを統合的に説明する。"
+    },
+    "quote": {
+      "ko": "이야기를 믿는 능력이 대규모 협력을 만들었다.",
+      "en": "Our ability to believe shared stories enabled mass cooperation.",
+      "ja": "共通の物語を信じる力が大規模な協力を可能にした。"
+    }
+  },
+  {
+    "id": "book-alchemist",
+    "category": "book",
+    "year": 1988,
+    "director": "",
+    "author": "Paulo Coelho",
+    "image": "https://picsum.photos/seed/alchemistbook/700/1000",
+    "title": {
+      "ko": "연금술사",
+      "en": "The Alchemist",
+      "ja": "アルケミスト"
+    },
+    "comment": {
+      "ko": "자기만의 보물을 찾는 여정을 간결한 문장으로 그린다.",
+      "en": "A simple, symbolic journey toward purpose and destiny.",
+      "ja": "自分だけの宝を探す旅を簡潔な文章で描く。"
+    },
+    "description": {
+      "ko": "양치기 소년 산티아고가 반복되는 징조를 따라 사막을 건너며 성장한다.",
+      "en": "A shepherd boy follows recurring omens across the desert in search of treasure.",
+      "ja": "羊飼いの少年サンチャゴが兆しを追って砂漠を越え、成長していく。"
+    },
+    "quote": {
+      "ko": "무언가를 진심으로 원하면 온 우주가 돕는다.",
+      "en": "When you want something, all the universe conspires to help you.",
+      "ja": "心から望めば、宇宙全体が力を貸してくれる。"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Build outputs (reserved for future migration)
+dist/
+build/
+.next/
+out/
+.vercel/
+
+# Node dependencies (not used in this MVP)
+node_modules/
