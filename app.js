@@ -41,7 +41,7 @@ const i18n = {
     catalogTitle: "검색 가능한 전체 카탈로그",
     searchLabel: "검색",
     searchPlaceholder: "제목, 감독, 작가로 검색",
-    category: { all: "전체", movie: "영화" },
+    category: { all: "전체", animation: "애니" },
     result: (count) => `총 ${count}개`,
     creator: { movie: "감독" },
     empty: "조건에 맞는 작품이 없습니다.",
@@ -66,7 +66,7 @@ const i18n = {
     catalogTitle: "Searchable Catalog",
     searchLabel: "Search",
     searchPlaceholder: "Search by title, director, or author",
-    category: { all: "All", movie: "Movie" },
+    category: { all: "All", animation: "Animation" },
     result: (count) => `${count} items`,
     creator: { movie: "Director" },
     empty: "No items found for your filters.",
@@ -91,7 +91,7 @@ const i18n = {
     catalogTitle: "検索可能なカタログ",
     searchLabel: "検索",
     searchPlaceholder: "タイトル・監督・作家で検索",
-    category: { all: "すべて", movie: "映画" },
+    category: { all: "すべて", animation: "アニメ" },
     result: (count) => `合計 ${count} 件`,
     creator: { movie: "監督" },
     empty: "条件に合う作品がありません。",
@@ -105,7 +105,7 @@ const i18n = {
 const state = {
   items: [],
   language: safeRead(STORAGE_KEYS.language, DEFAULT_LANG, ["ko", "en", "ja"]),
-  category: safeRead(STORAGE_KEYS.category, DEFAULT_CATEGORY, ["all", "movie"]),
+  category: safeRead(STORAGE_KEYS.category, DEFAULT_CATEGORY, ["all", "animation"]),
   query: "",
   modalTrigger: null,
 };
@@ -222,7 +222,7 @@ function render() {
   updateActiveButtons();
 
   const filtered = state.items.filter((item) => {
-    const categoryMatch = state.category === "all" || item.category === state.category;
+    const categoryMatch = state.category === "all" || (state.category === "animation" && item.isAnimation === true);
     const queryMatch = !state.query || makeSearchString(item).includes(state.query);
     return categoryMatch && queryMatch;
   });
@@ -319,7 +319,7 @@ function renderGrid(filteredItems) {
         <article class="card" data-id="${item.id}" tabindex="0" role="button" aria-label="${escapeHtml(title)}">
           <img src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy" />
           <div class="card-body">
-            <span class="badge ${item.category}">${text.category[item.category]}</span>
+            <span class="badge ${item.category}">${text.category[item.category] || "영화"}</span>
             <h3>${escapeHtml(title)} (${item.year})</h3>
             <p class="meta-line">${text.creator.movie}: ${escapeHtml(creatorName)}</p>
             <p class="comment">${escapeHtml(comment)}</p>
@@ -360,7 +360,7 @@ function openModal(id, triggerNode) {
   el.modalImage.src = item.image;
   el.modalImage.alt = title;
   el.modalBadge.className = `badge ${item.category}`;
-  el.modalBadge.textContent = text.category[item.category];
+  el.modalBadge.textContent = text.creator.movie === "감독" ? "영화" : (text.htmlLang === "en" ? "Movie" : "映画");
   el.modalTitle.textContent = `${title} (${item.year})`;
   el.modalMeta.textContent = `${text.creator.movie}: ${creatorName}`;
   el.modalDescription.textContent = description;

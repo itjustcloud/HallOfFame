@@ -30,7 +30,8 @@
       "id": 269149,
       "url": "https://www.themoviedb.org/movie/269149",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-zootopia-2",
@@ -63,7 +64,8 @@
       "id": 1084242,
       "url": "https://www.themoviedb.org/movie/1084242",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-hoppers",
@@ -96,7 +98,8 @@
       "id": 1327819,
       "url": "https://www.themoviedb.org/movie/1327819",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-elemental",
@@ -129,7 +132,8 @@
       "id": 976573,
       "url": "https://www.themoviedb.org/movie/976573",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-soul",
@@ -162,7 +166,8 @@
       "id": 508442,
       "url": "https://www.themoviedb.org/movie/508442",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-inside-out-1",
@@ -195,7 +200,8 @@
       "id": 150540,
       "url": "https://www.themoviedb.org/movie/150540",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-inside-out-2",
@@ -228,7 +234,8 @@
       "id": 1022789,
       "url": "https://www.themoviedb.org/movie/1022789",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-trolls",
@@ -261,7 +268,8 @@
       "id": 136799,
       "url": "https://www.themoviedb.org/movie/136799",
       "source": "TMDB"
-    }
+    },
+    "isAnimation": true
   },
   {
     "id": "movie-aladdin-2019",
@@ -359,6 +367,74 @@
     "tmdb": {
       "id": 316029,
       "url": "https://www.themoviedb.org/movie/316029",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-la-la-land",
+    "category": "movie",
+    "year": 2016,
+    "director": "Damien Chazelle",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/ad9ndytwOckyShSc0A6tx1rZRkW.jpg",
+    "isAnimation": false,
+    "title": {
+      "ko": "라라랜드",
+      "en": "La La Land",
+      "ja": "ラ・ラ・ランド"
+    },
+    "comment": {
+      "ko": "음악, 색감, 감정선이 모두 강한 현대 뮤지컬 영화.",
+      "en": "A modern musical with striking color, music, and emotion.",
+      "ja": "色彩と音楽、感情線が際立つ現代ミュージカル。"
+    },
+    "description": {
+      "ko": "꿈과 사랑 사이에서 선택을 마주하는 두 사람의 이야기.",
+      "en": "A story of two dreamers balancing love and ambition.",
+      "ja": "夢と恋のあいだで揺れる二人の物語。"
+    },
+    "quote": {
+      "ko": "꿈꾸는 사람들을 위해.",
+      "en": "Here’s to the fools who dream.",
+      "ja": "夢を見る人たちへ。"
+    },
+    "tmdb": {
+      "id": 313369,
+      "url": "https://www.themoviedb.org/movie/313369",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-les-miserables-2012",
+    "category": "movie",
+    "year": 2012,
+    "director": "Tom Hooper",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/hSjWT9LsyNJ9H3d1Tn9Hx02hnQD.jpg",
+    "isAnimation": false,
+    "title": {
+      "ko": "레미제라블",
+      "en": "Les Miserables",
+      "ja": "レ・ミゼラブル"
+    },
+    "comment": {
+      "ko": "서사와 넘버의 밀도가 높은 정통 뮤지컬 드라마.",
+      "en": "A grand musical drama with emotional performances.",
+      "ja": "重厚な物語と歌が強いミュージカルドラマ。"
+    },
+    "description": {
+      "ko": "장발장과 자베르의 대립 속에서 혁명과 구원의 이야기가 펼쳐진다.",
+      "en": "An epic of redemption and revolution through the clash of Valjean and Javert.",
+      "ja": "バルジャンとジャベールの対立を軸に、救済と革命を描く。"
+    },
+    "quote": {
+      "ko": "민중의 노래가 들리는가.",
+      "en": "Do you hear the people sing?",
+      "ja": "民衆の歌が聞こえるか。"
+    },
+    "tmdb": {
+      "id": 82695,
+      "url": "https://www.themoviedb.org/movie/82695",
       "source": "TMDB"
     }
   }
