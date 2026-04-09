@@ -437,5 +437,311 @@
       "url": "https://www.themoviedb.org/movie/82695",
       "source": "TMDB"
     }
+  },
+  {
+    "id": "movie-coco",
+    "category": "movie",
+    "year": 2017,
+    "director": "Lee Unkrich, Adrian Molina",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/pQu93NuwR90AaCULzglVD5Ge4Ml.jpg",
+    "isAnimation": true,
+    "title": {
+      "ko": "코코",
+      "en": "Coco",
+      "ja": "リメンバー・ミー"
+    },
+    "comment": {
+      "ko": "가족과 기억을 음악으로 풀어낸 따뜻한 애니메이션.",
+      "en": "A warm animated tale about family, memory, and music.",
+      "ja": "家族と記憶を音楽で描く心温まる作品。"
+    },
+    "description": {
+      "ko": "미겔이 죽은 자들의 세계를 여행하며 가족의 진실과 꿈을 마주한다.",
+      "en": "Miguel journeys through the Land of the Dead and discovers the truth about family and dreams.",
+      "ja": "ミゲルが死者の国を旅し、家族の真実と夢に向き合う。"
+    },
+    "quote": {
+      "ko": "리멤버 미.",
+      "en": "Remember me.",
+      "ja": "リメンバー・ミー。"
+    },
+    "tmdb": {
+      "id": 354912,
+      "url": "https://www.themoviedb.org/movie/354912",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-monsters-inc",
+    "category": "movie",
+    "year": 2001,
+    "director": "Pete Docter",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/fnDLrtEoIrxTCWUvuurMzOzQGpQ.jpg",
+    "isAnimation": true,
+    "title": {
+      "ko": "몬스터 주식회사",
+      "en": "Monsters, Inc.",
+      "ja": "モンスターズ・インク"
+    },
+    "comment": {
+      "ko": "기발한 세계관과 캐릭터 케미가 뛰어난 픽사 클래식.",
+      "en": "A Pixar classic with brilliant world-building and character chemistry.",
+      "ja": "世界観とキャラの掛け合いが光るピクサー名作。"
+    },
+    "description": {
+      "ko": "겁주기로 에너지를 만드는 몬스터 세계에서 부와 설리가 아이를 만나며 변화를 겪는다.",
+      "en": "In a monster world powered by screams, Sulley and Mike change after meeting a human child.",
+      "ja": "悲鳴をエネルギーにする世界で、サリーとマイクが少女との出会いで変わっていく。"
+    },
+    "quote": {
+      "ko": "부우!",
+      "en": "Boo!",
+      "ja": "ブー！"
+    },
+    "tmdb": {
+      "id": 585,
+      "url": "https://www.themoviedb.org/movie/585",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-monsters-university",
+    "category": "movie",
+    "year": 2013,
+    "director": "Dan Scanlon",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/7K5BqOlgDOs2DI2PKDUGlMtYheL.jpg",
+    "isAnimation": true,
+    "title": {
+      "ko": "몬스터 대학교",
+      "en": "Monsters University",
+      "ja": "モンスターズ・ユニバーシティ"
+    },
+    "comment": {
+      "ko": "우정과 성장, 실패의 의미를 유쾌하게 담아낸 프리퀄.",
+      "en": "A fun prequel about friendship, growth, and learning from failure.",
+      "ja": "友情と成長、挫折を描く楽しい前日譚。"
+    },
+    "description": {
+      "ko": "대학 시절의 마이크와 설리가 최고의 겁주기 콤비가 되기 전을 그린다.",
+      "en": "Follows Mike and Sulley before they became the top scare duo.",
+      "ja": "最強コンビになる前のマイクとサリーの大学時代を描く。"
+    },
+    "quote": {
+      "ko": "우린 아직 끝나지 않았어.",
+      "en": "We are not done yet.",
+      "ja": "まだ終わってない。"
+    },
+    "tmdb": {
+      "id": 62211,
+      "url": "https://www.themoviedb.org/movie/62211",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-mamma-mia",
+    "category": "movie",
+    "year": 2008,
+    "director": "Phyllida Lloyd",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/9fnWov6Mb7LJKA2dJLV9h1mcSnF.jpg",
+    "isAnimation": false,
+    "title": {
+      "ko": "맘마미아!",
+      "en": "Mamma Mia!",
+      "ja": "マンマ・ミーア！"
+    },
+    "comment": {
+      "ko": "ABBA 음악과 지중해 분위기가 매력적인 뮤지컬 영화.",
+      "en": "A feel-good musical powered by ABBA songs and Mediterranean vibes.",
+      "ja": "ABBAの楽曲と地中海の空気感が魅力のミュージカル。"
+    },
+    "description": {
+      "ko": "결혼식을 앞둔 소피가 아버지를 찾는 과정에서 가족의 비밀이 드러난다.",
+      "en": "As Sophie searches for her father before her wedding, family secrets unfold.",
+      "ja": "結婚式を前に父親を探すソフィを中心に、家族の秘密が明らかになる。"
+    },
+    "quote": {
+      "ko": "댄싱 퀸, 젊고 달콤한 열일곱.",
+      "en": "You are the dancing queen.",
+      "ja": "You are the dancing queen."
+    },
+    "tmdb": {
+      "id": 11631,
+      "url": "https://www.themoviedb.org/movie/11631",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-little-forest",
+    "category": "movie",
+    "year": 2018,
+    "director": "Yim Soon-rye",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/tJaTuzajOEETn6gct6EaDhocXW7.jpg",
+    "isAnimation": false,
+    "title": {
+      "ko": "리틀 포레스트",
+      "en": "Little Forest",
+      "ja": "リトル・フォレスト"
+    },
+    "comment": {
+      "ko": "계절과 음식으로 마음을 회복하는 힐링 영화.",
+      "en": "A healing film about restoring yourself through seasons and food.",
+      "ja": "四季と食を通して心を整える癒やしの作品。"
+    },
+    "description": {
+      "ko": "도시 생활에 지친 혜원이 고향으로 돌아와 자신만의 속도를 되찾는다.",
+      "en": "Hye-won returns to her hometown and rediscovers her own pace of life.",
+      "ja": "都会に疲れたヘウォンが故郷で自分のペースを取り戻していく。"
+    },
+    "quote": {
+      "ko": "천천히, 제철로 살아간다.",
+      "en": "Live slowly, in season.",
+      "ja": "ゆっくり、季節に合わせて生きる。"
+    },
+    "tmdb": {
+      "id": 448491,
+      "url": "https://www.themoviedb.org/movie/448491",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-my-neighbor-totoro",
+    "category": "movie",
+    "year": 1988,
+    "director": "Hayao Miyazaki",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/c9zCkL0rTkNQ1HB9cmeFIqbkS50.jpg",
+    "isAnimation": true,
+    "title": {
+      "ko": "이웃집 토토로",
+      "en": "My Neighbor Totoro",
+      "ja": "となりのトトロ"
+    },
+    "comment": {
+      "ko": "순수한 상상력과 자연의 정서를 담은 지브리 대표작.",
+      "en": "A Ghibli classic filled with innocence, wonder, and nature.",
+      "ja": "無垢な想像力と自然の情緒に満ちたジブリ代表作。"
+    },
+    "description": {
+      "ko": "사츠키와 메이가 시골로 이사해 신비한 존재 토토로를 만나게 된다.",
+      "en": "Satsuki and Mei move to the countryside and meet the mysterious Totoro.",
+      "ja": "サツキとメイが田舎で不思議な存在トトロと出会う。"
+    },
+    "quote": {
+      "ko": "토토로가 왔어!",
+      "en": "Totoro is here!",
+      "ja": "トトロがいた！"
+    },
+    "tmdb": {
+      "id": 8392,
+      "url": "https://www.themoviedb.org/movie/8392",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-howls-moving-castle",
+    "category": "movie",
+    "year": 2004,
+    "director": "Hayao Miyazaki",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/xiz6TiSduvR1U3VLfWVlBEdT9fO.jpg",
+    "isAnimation": true,
+    "title": {
+      "ko": "하울의 움직이는 성",
+      "en": "Howl's Moving Castle",
+      "ja": "ハウルの動く城"
+    },
+    "comment": {
+      "ko": "환상적인 비주얼과 반전 메시지가 깊은 여운을 남긴다.",
+      "en": "A visually enchanting fantasy with a strong anti-war message.",
+      "ja": "幻想的な映像と反戦メッセージが印象的。"
+    },
+    "description": {
+      "ko": "저주를 받은 소피가 하울과 함께하며 자신과 세계를 다시 바라보게 된다.",
+      "en": "Cursed Sophie finds new courage while living in Howl’s moving castle.",
+      "ja": "呪いを受けたソフィーがハウルと過ごしながら自分を取り戻していく。"
+    },
+    "quote": {
+      "ko": "마음이 약해도 괜찮아, 앞으로 나아가면 돼.",
+      "en": "It’s okay to be afraid—keep moving forward.",
+      "ja": "怖くても、前に進めばいい。"
+    },
+    "tmdb": {
+      "id": 4935,
+      "url": "https://www.themoviedb.org/movie/4935",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-ponyo",
+    "category": "movie",
+    "year": 2008,
+    "director": "Hayao Miyazaki",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/tGSuFBsqdXxIz3fTSBfsZU9FBMN.jpg",
+    "isAnimation": true,
+    "title": {
+      "ko": "벼랑 위의 포뇨",
+      "en": "Ponyo",
+      "ja": "崖の上のポニョ"
+    },
+    "comment": {
+      "ko": "바다와 아이의 시선을 담아낸 사랑스러운 판타지.",
+      "en": "A charming fantasy told through the eyes of childhood and the sea.",
+      "ja": "海と子どもの視点で描く愛らしいファンタジー。"
+    },
+    "description": {
+      "ko": "물고기 소녀 포뇨와 소스케의 우정이 거대한 자연의 변화와 맞닿는다.",
+      "en": "Ponyo and Sosuke’s bond unfolds amid magical changes in nature.",
+      "ja": "ポニョと宗介の絆が自然の大きなうねりと重なる。"
+    },
+    "quote": {
+      "ko": "포뇨, 소스케 좋아!",
+      "en": "Ponyo loves Sosuke!",
+      "ja": "ポニョ、宗介すきー！"
+    },
+    "tmdb": {
+      "id": 12429,
+      "url": "https://www.themoviedb.org/movie/12429",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-spirited-away",
+    "category": "movie",
+    "year": 2001,
+    "director": "Hayao Miyazaki",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/u1L4qxIu5sC2P082uMHYt7Ifvnj.jpg",
+    "isAnimation": true,
+    "title": {
+      "ko": "센과 치히로의 행방불명",
+      "en": "Spirited Away",
+      "ja": "千と千尋の神隠し"
+    },
+    "comment": {
+      "ko": "상상력과 성장 서사가 완벽하게 맞물린 걸작.",
+      "en": "A masterpiece where imagination and coming-of-age storytelling align.",
+      "ja": "想像力と成長譚が見事に重なる傑作。"
+    },
+    "description": {
+      "ko": "치히로가 낯선 온천 마을에서 이름과 가족을 지키기 위해 분투한다.",
+      "en": "Chihiro struggles to protect her name and family in a mysterious bathhouse town.",
+      "ja": "不思議な湯屋の町で、千尋が名前と家族を守るため奮闘する。"
+    },
+    "quote": {
+      "ko": "한 번 만난 인연은 잊히지 않아.",
+      "en": "Once you’ve met someone, you never really forget them.",
+      "ja": "一度出会った縁は、決して忘れない。"
+    },
+    "tmdb": {
+      "id": 129,
+      "url": "https://www.themoviedb.org/movie/129",
+      "source": "TMDB"
+    }
   }
 ]
