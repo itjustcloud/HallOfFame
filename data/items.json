@@ -262,5 +262,104 @@
       "url": "https://www.themoviedb.org/movie/136799",
       "source": "TMDB"
     }
+  },
+  {
+    "id": "movie-aladdin-2019",
+    "category": "movie",
+    "year": 2019,
+    "director": "Guy Ritchie",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/wXb0kaJICaAmVONxELNLJZJtGj0.jpg",
+    "title": {
+      "ko": "알라딘",
+      "en": "Aladdin",
+      "ja": "アラジン"
+    },
+    "comment": {
+      "ko": "음악과 스펙터클이 강한 라이브액션 뮤지컬.",
+      "en": "A colorful live-action musical with strong spectacle.",
+      "ja": "音楽とスケール感が魅力の実写ミュージカル。"
+    },
+    "description": {
+      "ko": "알라딘과 지니, 자스민이 펼치는 모험과 성장 이야기.",
+      "en": "An adventure of Aladdin, Genie, and Jasmine filled with music and growth.",
+      "ja": "アラジン、ジーニー、ジャスミンの冒険と成長の物語。"
+    },
+    "quote": {
+      "ko": "소원을 말해봐.",
+      "en": "Tell me your wish.",
+      "ja": "願いを言って。"
+    },
+    "tmdb": {
+      "id": 420817,
+      "url": "https://www.themoviedb.org/movie/420817",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-beauty-and-the-beast-2017",
+    "category": "movie",
+    "year": 2017,
+    "director": "Bill Condon",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/bG7ZTQqdRCA0CjUh560J69O90CG.jpg",
+    "title": {
+      "ko": "미녀와 야수",
+      "en": "Beauty and the Beast",
+      "ja": "美女と野獣"
+    },
+    "comment": {
+      "ko": "클래식 디즈니 감성을 화려하게 재현한 작품.",
+      "en": "A lavish live-action retelling of a Disney classic.",
+      "ja": "ディズニーの名作を豪華に再構築した実写版。"
+    },
+    "description": {
+      "ko": "벨과 야수가 서로를 이해하며 사랑을 찾아가는 판타지 로맨스.",
+      "en": "A fantasy romance where Belle and the Beast learn to see beyond appearances.",
+      "ja": "ベルと野獣が心を通わせるファンタジー・ロマンス。"
+    },
+    "quote": {
+      "ko": "진짜 아름다움은 눈에 보이지 않아.",
+      "en": "True beauty is found within.",
+      "ja": "本当の美しさは内面にある。"
+    },
+    "tmdb": {
+      "id": 321612,
+      "url": "https://www.themoviedb.org/movie/321612",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-the-greatest-showman",
+    "category": "movie",
+    "year": 2017,
+    "director": "Michael Gracey",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/h8qzZtSScJV1zIf6lVc4449Zgui.jpg",
+    "title": {
+      "ko": "위대한 쇼맨",
+      "en": "The Greatest Showman",
+      "ja": "グレイテスト・ショーマン"
+    },
+    "comment": {
+      "ko": "넘버와 퍼포먼스가 압도적인 뮤지컬 엔터테이너.",
+      "en": "An energetic musical powered by iconic songs and performances.",
+      "ja": "名曲とパフォーマンスが光るミュージカル。"
+    },
+    "description": {
+      "ko": "쇼 비즈니스의 꿈과 갈등, 가족의 의미를 그린 뮤지컬 드라마.",
+      "en": "A musical drama about ambition, show business, and family.",
+      "ja": "夢、ショービジネス、家族を描くミュージカルドラマ。"
+    },
+    "quote": {
+      "ko": "이게 바로 위대한 쇼의 시작이야.",
+      "en": "This is the greatest show.",
+      "ja": "これが最高のショーの始まりだ。"
+    },
+    "tmdb": {
+      "id": 316029,
+      "url": "https://www.themoviedb.org/movie/316029",
+      "source": "TMDB"
+    }
   }
 ]
