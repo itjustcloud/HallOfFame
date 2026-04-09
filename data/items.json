@@ -981,5 +981,73 @@
       "url": "https://www.themoviedb.org/movie/5123",
       "source": "TMDB"
     }
+  },
+  {
+    "id": "movie-eternal-sunshine",
+    "category": "movie",
+    "year": 2004,
+    "director": "Michel Gondry",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/jULvvUymAqM18gIDHbMRfKHbCSB.jpg",
+    "isAnimation": false,
+    "title": {
+      "ko": "이터널 선샤인",
+      "en": "Eternal Sunshine of the Spotless Mind",
+      "ja": "エターナル・サンシャイン"
+    },
+    "comment": {
+      "ko": "사랑과 기억을 독창적으로 다룬 감성 SF 로맨스.",
+      "en": "A uniquely crafted sci-fi romance about love and memory.",
+      "ja": "愛と記憶を独創的に描く感性SFロマンス。"
+    },
+    "description": {
+      "ko": "헤어진 연인의 기억을 지우는 과정에서 진짜 감정과 관계를 돌아보게 된다.",
+      "en": "As memories are erased, the truth of a relationship resurfaces.",
+      "ja": "記憶を消す過程で、関係の本質と感情が浮かび上がる。"
+    },
+    "quote": {
+      "ko": "괜찮아, 그래도 널 선택할 거야.",
+      "en": "Okay. Still, I’d choose you.",
+      "ja": "それでも、君を選ぶ。"
+    },
+    "tmdb": {
+      "id": 38,
+      "url": "https://www.themoviedb.org/movie/38",
+      "source": "TMDB"
+    }
+  },
+  {
+    "id": "movie-the-intern",
+    "category": "movie",
+    "year": 2015,
+    "director": "Nancy Meyers",
+    "author": "",
+    "image": "https://image.tmdb.org/t/p/w780/p61xAS4xprjWbHUkRX7rmI37ImL.jpg",
+    "isAnimation": false,
+    "title": {
+      "ko": "인턴",
+      "en": "The Intern",
+      "ja": "マイ・インターン"
+    },
+    "comment": {
+      "ko": "따뜻한 관계와 일의 균형을 보여주는 힐링 무비.",
+      "en": "A warm workplace drama about mentorship and balance.",
+      "ja": "働くことと人間関係を優しく描くヒーリング作品。"
+    },
+    "description": {
+      "ko": "70세 인턴 벤과 젊은 CEO 줄스가 서로에게 배움을 주며 성장한다.",
+      "en": "Ben and Jules grow through mutual respect across generations.",
+      "ja": "70歳のインターン、ベンと若きCEOジュールズが互いに学び合う。"
+    },
+    "quote": {
+      "ko": "경험은 절대 낡지 않아.",
+      "en": "Experience never gets old.",
+      "ja": "経験は決して古くならない。"
+    },
+    "tmdb": {
+      "id": 257211,
+      "url": "https://www.themoviedb.org/movie/257211",
+      "source": "TMDB"
+    }
   }
 ]
