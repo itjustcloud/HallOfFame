@@ -229,5 +229,33 @@
       "url": "https://www.themoviedb.org/movie/1022789",
       "source": "TMDB"
     }
+  },
+  {
+    "id": "movie-trolls",
+    "category": "movie",
+    "year": 2016,
+    "director": "Mike Mitchell, Walt Dohrn",
+    "author": "",
+    "image": "https://picsum.photos/seed/trolls2016/700/1000",
+    "title": {
+      "ko": "트롤",
+      "en": "Trolls",
+      "ja": "トロールズ"
+    },
+    "comment": {
+      "ko": "컬러감과 음악 에너지가 강한 즐거운 애니메이션.",
+      "en": "A vibrant, music-driven animation full of energy.",
+      "ja": "色彩と音楽の勢いが楽しいアニメーション。"
+    },
+    "description": {
+      "ko": "파피와 브랜치가 친구들을 구하기 위해 모험을 떠나는 뮤지컬 애니메이션.",
+      "en": "Poppy and Branch go on an adventure to save their friends in this musical animation.",
+      "ja": "ポピーとブランチが仲間を救うため冒険するミュージカルアニメ。"
+    },
+    "quote": {
+      "ko": "노래하고, 춤추고, 함께 나아가자.",
+      "en": "Sing, dance, and keep moving together.",
+      "ja": "歌って、踊って、一緒に進もう。"
+    }
   }
 ]
