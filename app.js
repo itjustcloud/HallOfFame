@@ -29,7 +29,7 @@ const i18n = {
     htmlLang: "ko",
     heroEyebrow: "명예의 작품들",
     heroTitle: "HallOfFame",
-    heroDesc: "영화와 책을 한 곳에서 탐색하고 기록하세요.",
+    heroDesc: "좋아하는 영화를 한 곳에서 탐색하고 기록하세요.",
     featuredKicker: "오늘의 큐레이션",
     laneSectionTitle: "테마 큐레이션",
     lanes: {
@@ -41,9 +41,9 @@ const i18n = {
     catalogTitle: "검색 가능한 전체 카탈로그",
     searchLabel: "검색",
     searchPlaceholder: "제목, 감독, 작가로 검색",
-    category: { all: "전체", movie: "영화", book: "도서" },
+    category: { all: "전체", movie: "영화" },
     result: (count) => `총 ${count}개`,
-    creator: { movie: "감독", book: "작가" },
+    creator: { movie: "감독" },
     empty: "조건에 맞는 작품이 없습니다.",
     laneCount: (count) => `${count}개 큐레이션`,
     featuredFallback: "표시할 작품이 없습니다.",
@@ -54,7 +54,7 @@ const i18n = {
     htmlLang: "en",
     heroEyebrow: "Hall of Great Works",
     heroTitle: "HallOfFame",
-    heroDesc: "Browse standout movies and books in one place.",
+    heroDesc: "Browse standout movies in one place.",
     featuredKicker: "Featured Pick",
     laneSectionTitle: "Curated Lanes",
     lanes: {
@@ -66,9 +66,9 @@ const i18n = {
     catalogTitle: "Searchable Catalog",
     searchLabel: "Search",
     searchPlaceholder: "Search by title, director, or author",
-    category: { all: "All", movie: "Movie", book: "Book" },
+    category: { all: "All", movie: "Movie" },
     result: (count) => `${count} items`,
-    creator: { movie: "Director", book: "Author" },
+    creator: { movie: "Director" },
     empty: "No items found for your filters.",
     laneCount: (count) => `${count} picks`,
     featuredFallback: "No featured item available.",
@@ -79,7 +79,7 @@ const i18n = {
     htmlLang: "ja",
     heroEyebrow: "殿堂入り作品",
     heroTitle: "HallOfFame",
-    heroDesc: "映画と本をひとつの場所で探せます。",
+    heroDesc: "お気に入りの映画をひとつの場所で探せます。",
     featuredKicker: "本日のピック",
     laneSectionTitle: "テーマ別キュレーション",
     lanes: {
@@ -91,9 +91,9 @@ const i18n = {
     catalogTitle: "検索可能なカタログ",
     searchLabel: "検索",
     searchPlaceholder: "タイトル・監督・作家で検索",
-    category: { all: "すべて", movie: "映画", book: "本" },
+    category: { all: "すべて", movie: "映画" },
     result: (count) => `合計 ${count} 件`,
-    creator: { movie: "監督", book: "作家" },
+    creator: { movie: "監督" },
     empty: "条件に合う作品がありません。",
     laneCount: (count) => `${count} 作品`,
     featuredFallback: "表示できる作品がありません。",
@@ -105,7 +105,7 @@ const i18n = {
 const state = {
   items: [],
   language: safeRead(STORAGE_KEYS.language, DEFAULT_LANG, ["ko", "en", "ja"]),
-  category: safeRead(STORAGE_KEYS.category, DEFAULT_CATEGORY, ["all", "movie", "book"]),
+  category: safeRead(STORAGE_KEYS.category, DEFAULT_CATEGORY, ["all", "movie"]),
   query: "",
   modalTrigger: null,
 };
@@ -247,13 +247,13 @@ function renderFeatured(filteredItems) {
   }
 
   const title = localText(featured.title);
-  const creatorName = featured.category === "movie" ? featured.director : featured.author;
+  const creatorName = featured.director || featured.author || "-";
 
   el.featuredPanel.classList.remove("is-empty");
   el.featuredImage.src = featured.image;
   el.featuredImage.alt = title;
   el.featuredTitle.textContent = `${title} (${featured.year})`;
-  el.featuredMeta.textContent = `${text.creator[featured.category]}: ${creatorName}`;
+  el.featuredMeta.textContent = `${text.creator.movie}: ${creatorName}`;
   el.featuredDescription.textContent = localText(featured.description);
 }
 
@@ -313,7 +313,7 @@ function renderGrid(filteredItems) {
     .map((item) => {
       const title = localText(item.title);
       const comment = localText(item.comment);
-      const creatorName = item.category === "movie" ? item.director : item.author;
+      const creatorName = item.director || item.author || "-";
 
       return `
         <article class="card" data-id="${item.id}" tabindex="0" role="button" aria-label="${escapeHtml(title)}">
@@ -321,7 +321,7 @@ function renderGrid(filteredItems) {
           <div class="card-body">
             <span class="badge ${item.category}">${text.category[item.category]}</span>
             <h3>${escapeHtml(title)} (${item.year})</h3>
-            <p class="meta-line">${text.creator[item.category]}: ${escapeHtml(creatorName)}</p>
+            <p class="meta-line">${text.creator.movie}: ${escapeHtml(creatorName)}</p>
             <p class="comment">${escapeHtml(comment)}</p>
           </div>
         </article>
@@ -353,7 +353,7 @@ function openModal(id, triggerNode) {
   const title = localText(item.title);
   const description = localText(item.description);
   const quote = localText(item.quote);
-  const creatorName = item.category === "movie" ? item.director : item.author;
+  const creatorName = item.director || item.author || "-";
 
   state.modalTrigger = triggerNode || document.activeElement;
 
@@ -362,7 +362,7 @@ function openModal(id, triggerNode) {
   el.modalBadge.className = `badge ${item.category}`;
   el.modalBadge.textContent = text.category[item.category];
   el.modalTitle.textContent = `${title} (${item.year})`;
-  el.modalMeta.textContent = `${text.creator[item.category]}: ${creatorName}`;
+  el.modalMeta.textContent = `${text.creator.movie}: ${creatorName}`;
   el.modalDescription.textContent = description;
   el.modalQuote.textContent = quote;
   if (item.tmdb?.url) {

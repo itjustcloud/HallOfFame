@@ -1,6 +1,6 @@
 # HallOfFame
 
-정적 GitHub Pages용 HallOfFame 웹사이트입니다. HTML/CSS/Vanilla JS만 사용하며, 영화/도서 카드 탐색, 검색, 다국어 전환(ko/en/ja), 상세 모달을 제공합니다.
+정적 GitHub Pages용 HallOfFame 웹사이트입니다. HTML/CSS/Vanilla JS만 사용하며, 영화 카드 탐색, 검색, 다국어 전환(ko/en/ja), 상세 모달을 제공합니다.
 
 ## 파일 구조
 
@@ -41,8 +41,8 @@
 변경 시 규칙:
 
 1. `id`는 고유값으로 유지합니다.
-2. `category`는 `movie` 또는 `book`만 사용합니다.
-3. `movie`는 `director`, `book`은 `author`를 채웁니다.
+2. `category`는 `movie`를 사용합니다.
+3. `movie`의 감독 정보는 `director`를 채웁니다.
 4. 다국어 필드(`title/comment/description/quote`)는 `ko/en/ja` 키를 유지합니다.
 5. 이미지 경로는 원격 URL을 사용하면 로컬 에셋 없이 바로 렌더링됩니다.
 
